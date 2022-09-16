@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+body {
+    margin: 0px;
+}
+
+i {
+    color: #4d4d4d;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Lobster Two', cursive;
+    color: #423630;
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    border-radius: 7px;
+    margin: 4rem auto 0;
+    box-shadow: 1px 1px 13px 3px #f1f1f1;
+}
+
+.nav-ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+li.navigation-li {
+    padding: 1rem;
+}
+
+li.navigation-li:hover {
+    color: #fc7fb2;
+}
+
+li.social-li {
+    border: 1px solid #e6e6e6;
+    padding: 0.7rem 0.9rem;
+    background-color: #ffffff;
+    border-radius: 100px;
+    margin: 0 0.1rem 0 0.1rem;
+}
+
+li.social-li:hover {
+    background: #fc7fb2;
+    border-color: #fc7fb2;
+}
+
+.footer-container {
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.footer-logo {
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    text-align: center;
+    background-color: gray;
+    padding: 10px 0px 10px 0px;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.footer-call {
+    margin: 0rem 0rem 0rem 1rem;
+    border: 10px solid #ff7e00;
+    border-radius: 200px;
+    padding: 7px 10px 7px 10px;
+    background-color: #ff7e00;
+}
+
+.footer-nevigation {
+    list-style-type: none;
+    color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nevigation-li {
+    margin: 0px 10px 0px 10px;
+}
+
+.footer-terms {
+    color: white;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer-social {
+    color: #e6e6e6;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-li {
+    margin: 0px 10px 0px 10px;
+}
+
+.home-container {
+    /* background-image: url("../img/sketch.jpg"); */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    height: auto;
+
+}
+
+.login-container {
+    border: 1px solid pink;
+    height: auto;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.logbox-header {
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.logbox-header button {
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+
+}
+
+.loginid-box {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0px 10px 0px;
+
+}
+
+.password-box {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0px 10px 0px;
+
+}
+
+.login-input {
+    border: none;
+    border-bottom: 3px solid grey;
+    /* font-family: 'Font Awesome 5 Free';
+   font-weight:100; */
+    height: 50px;
+    width: 80%;
+    outline-color: transparent;
+}
+
+.password-input {
+    border: none;
+    border-bottom: 3px solid grey;
+    /* font-family: 'Font Awesome 5 Free'; 
+   font-weight:200; */
+    height: 50px;
+    width: 80%;
+    outline-color: transparent;
+}
+
+.logbox-title {
+
+    margin: 1px 10px 1px 10px;
+    padding: 0rem 0rem 0rem 3rem;
+
+}
+
+.forgot-psw {
+    display: flex;
+    justify-content: end;
+    padding-right: 4rem;
+    color: #fc7fb2;
+
+}
+
+.link {
+    color: grey;
+}
+
+.link:hover {
+    color: green;
+}
+
+.logbox-submit {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.logbox-subtn {
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 100px;
+    width: 80%;
+    height: 40px;
+}
+
+.logbox-Option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logbox-optsign {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.reg_name {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px 10px 0px;
+}
+
+.reg_box {
+    border: none;
+    border-bottom: 3px solid grey;
+    height: 50px;
+    width: 40%;
+    outline-color: transparent;
+}
+
+.reg_submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.reg_subtn {
+    border: #ccc;
+    background-color: lightgreen;
+    border-radius: 40px;
+    height: 60px;
+    width: 80%;
+    font-size: 25px;
+}
+
+.reg_subtn:hover {
+    color: green;
+}
+
+.loginchkbx {
+    display: flex;
+    justify-content: center;
+}
+
+.vote_home {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.vote_menu {
+    width: 80%;
+
+    box-shadow: 1370px 419px 557px skyblue inset;
+}
+
+.vote_headline {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.candidates_phase {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+
+}
+
+.candidate {
+    background-color: white;
+    height: 500px;
+    position: relative;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.candidate_img {
+    background-image: url("../img/flag.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    position: relative;
+    height: 45%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.can_img {
+
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 70%;
+    border: 8px solid white;
+    box-shadow: 1px 2px 3px black;
+    height: 60%;
+    width: 127px;
+}
+
+.can_name {
+    position: absolute;
+    top: 350px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.can_vote_btn {
+    position: absolute;
+    top: 85%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.vote_btn {
+    width: 40%;
+    height: 50px;
+    border-radius: 4px;
+    border-color: orange;
+    box-shadow: 1px 40px 60px orange inset;
+}
+
+.adm_title {
+    background-color: #F9F6EE;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;
+}
+
+.dashboard {
+background-color: whitesmoke;
+border: 2px solid red;
+    border-radius: 18px;
+    height: 100%;
+
+}
+
+.admin_panel {
+    background-color: #EDEADE;
+    display: flex;
+}
+
+.admin_tab {
+    background-color: grey;
+    height: auto;
+    width: 20%;
+
+}
+
+.admin_view {
+    background-color: red;
+}
